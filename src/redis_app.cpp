@@ -1,4 +1,4 @@
-#include "../include/redis_app.h"
+#include "redis_app.h"
 
 void test_redis()
 {

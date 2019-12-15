@@ -11,9 +11,19 @@ common.h
 ../include/common.h
 boost/version.hpp
 -
+boost/archive/text_iarchive.hpp
+-
+boost/archive/text_oarchive.hpp
+-
+boost/serialization/vector.hpp
+-
 
 ../include/common.h
 iostream
+-
+fstream
+-
+sstream
 -
 cstdio
 -
@@ -84,28 +94,6 @@ message.pb.h
 common.h
 ../include/common.h
 hiredis/hiredis.h
--
-
-/home/jxk0217/Documents/jxk0217_server_demo/include/common.h
-iostream
--
-cstdio
--
-vector
--
-string
--
-cstring
--
-list
--
-map
--
-functional
--
-algorithm
--
-thread
 -
 
 /home/jxk0217/Documents/jxk0217_server_demo/include/protobuf/login_msg.pb.cc
@@ -234,12 +222,6 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/jxk0217/Documents/jxk0217_server_demo/include/redis_app.h
-common.h
-/home/jxk0217/Documents/jxk0217_server_demo/include/common.h
-hiredis/hiredis.h
--
-
 /home/jxk0217/Documents/jxk0217_server_demo/src/boost_app.cpp
 boost_app.h
 /home/jxk0217/Documents/jxk0217_server_demo/src/boost_app.h
@@ -259,8 +241,8 @@ protobuf_app.h
 /home/jxk0217/Documents/jxk0217_server_demo/src/protobuf_app.h
 
 /home/jxk0217/Documents/jxk0217_server_demo/src/redis_app.cpp
-../include/redis_app.h
-/home/jxk0217/Documents/jxk0217_server_demo/include/redis_app.h
+redis_app.h
+/home/jxk0217/Documents/jxk0217_server_demo/src/redis_app.h
 
 /opt/protobuf/include/google/protobuf/any.h
 string

@@ -222,6 +222,7 @@ jxk_server_demo_EXTERNAL_OBJECTS =
 ../bin/jxk_server_demo: CMakeFiles/jxk_server_demo.dir/build.make
 ../bin/jxk_server_demo: /opt/protobuf/lib/libprotobuf.so
 ../bin/jxk_server_demo: /opt/hiredis/libhiredis.so
+../bin/jxk_server_demo: /usr/local/lib/libboost_serialization.so
 ../bin/jxk_server_demo: CMakeFiles/jxk_server_demo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jxk0217/Documents/jxk0217_server_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/jxk_server_demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/jxk_server_demo.dir/link.txt --verbose=$(VERBOSE)

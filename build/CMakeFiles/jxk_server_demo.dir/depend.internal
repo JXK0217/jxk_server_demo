@@ -212,6 +212,6 @@ CMakeFiles/jxk_server_demo.dir/src/protobuf_app.cpp.o
  /opt/protobuf/include/google/protobuf/unknown_field_set.h
  /opt/protobuf/include/google/protobuf/wire_format_lite.h
 CMakeFiles/jxk_server_demo.dir/src/redis_app.cpp.o
- /home/jxk0217/Documents/jxk0217_server_demo/include/common.h
- /home/jxk0217/Documents/jxk0217_server_demo/include/redis_app.h
+ ../include/common.h
+ ../include/redis_app.h
  /home/jxk0217/Documents/jxk0217_server_demo/src/redis_app.cpp
